@@ -25,20 +25,23 @@ ChatDB is a natural language interface system that leverages large language mode
    source venv/bin/activate # On Windows: venv\Scripts\activate
 3. Install dependencies:
    pip install -r requirements.txt
-4. Set up MySQL and MongoDB databases with the datasets in the `datasets/` folder.
-5. Add your OpenAI API key to a '.env' file (see below).
-6. Open and run 'ChatDB.ipynb' in Jupyter Notebook.
+4. Set up MySQL and MongoDB databases with the datasets in the 'datasets/' folder.
+5. Open the project in Jupyter notebook.
+6. Open `ChatDB.ipynb` and follow the step-by-step cells.
 
-## API Key Setup
-Create a file named '.env' in the project root:
-  **OPENAI_API_KEY=your_api_key_here**
+## API Key
+To use the OpenAI API:
+- Open 'ChatDB.ipynb'
+- Go to the cell where OpenAI is initialized
+- Add your API key on the indicated line:
 
-
-Make sure to add '.env' to '.gitignore' to avoid uploading it to GitHub.
+python
+# Add your API key below
+openai.api_key = "your-api-key-here"
 
 ## Usage
 
-1. Open the Notebook: 'jupyter notebook ChatDB.ipynb'
+1. Open the Notebook: 'ChatDB.ipynb'
 2. Run the notebook step by step
 3. Enter queries like:
 - "List the top 5 most sold products."
