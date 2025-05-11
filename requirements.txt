@@ -1,0 +1,8 @@
+openai
+pymongo
+mysql-connector-python
+sqlalchemy
+pandas
+ipywidgets
+python-dotenv
+notebook
