@@ -7,7 +7,7 @@ ChatDB is a natural language interface system that leverages large language mode
 - SQL: supports SELECT, JOIN, WHERE, GROUP BY, ORDER BY, etc.
 - MongoDB: supports $match, $group, $sort, $lookup, etc.
 - Interactive execution via Jupyter Notebook
-- Three real-world datasets: Grocery Sales, Online Shop, Social Media
+- Three real-world datasets: customers database, orders database, product database.
 
 ## Prerequisites
 
@@ -37,7 +37,7 @@ To use the OpenAI API:
 
 python
 # Add your API key below
-openai.api_key = "your-api-key-here"
+openai.api_key = " " # Replace your LLM API
 
 ## Usage
 
@@ -49,7 +49,7 @@ openai.api_key = "your-api-key-here"
 
 ## Team
 
-- Chuanyu Ma – SQL backend, database design, GPT integration
-- Shuohang Wu – MongoDB backend, frontend design, optimization
+- Shuohang Wu – SQL backend, database design, GPT integration
+- Chuanyu Ma – MongoDB backend, frontend design, optimization
 
 
